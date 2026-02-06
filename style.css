@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: pink;
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: stretch;
+}
+
+nav li,
+nav a:visited,
+nav a:link {
+    color: pink;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border-left: 1px solid pink;
+}
+
+a:first-child {
+    border-left: none;
+}
+
+nav a:hover,
+nav a:hover>nav li {
+    background-color: lightskyblue;
+}
+
+#accueil {
+    width: 100%;
+}
+
+.newyork {
+    width: 100%;
+}
+
+#menu{
+    border: 1px solid pink;
+    background-color: black;
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    font-size: 3rem;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    color: lightskyblue;
+}
+
+h4{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h6{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+#menus{
+    display: flex;
+}
+
+img{
+    width: 40%;
+}
+
+#entrées{
+    text-align: center;
+    border: 3px solid lightskyblue;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+}
+
+.salade{
+    text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.onion{
+    text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.chicken{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+#plats{
+    text-align: center;
+    border: 3px solid lightskyblue;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+}
+
+.marilyn{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.elvis{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.madonna{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+#desserts{
+    text-align: center;
+    border: 3px solid lightskyblue;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+}
+
+.donuts{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.pancakes{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.cookies{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+#boissons{
+    text-align: center;
+    border: 3px solid lightskyblue;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+}
+
+.drpepper {
+    width: 100%;
+}
+
+.cocktails{
+    text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.alcool{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.soft{
+     text-align: center;
+    border: 3px solid pink;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px 10px;
+    background-color: pink;
+}
+
+.prix{
+    font-weight: bold;
+}
+
+#reservation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px lightskyblue;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.group-input{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 2px;
+}
+
+input{
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+label{
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid blue;
+}
+
+button{
+    background-color: pink;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    scale: 1.05
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#trouvez-nous{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#trouvez-div{
+    display: flex;
+    align-content: center;
+    background-color: white;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px pink;
+    gap: 10px;
+    background-color: black;
+    color: pink;
+    
+}
+
+#trouvez-left, #trouvez-right {
+    flex-grow: 1; 
+    background-color: black;
+}
+
+#trouvez-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trouvez-row{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a:visited, a:link{
+    color:pink;
+    font-size: 1rem;
+}
+
+a:hover{
+    background: none;
+    color: black;
+}
+
+.separateur{
+    width: 50%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: pink;
+    margin: 20px;
+}
+
+footer{
+    background-color: black;
+}
+
+/* MEDIA QUERIES 
+- mobile : 1 colonnes
+- tablette : 2 colonnes
+- desktop : 3 colonnes */
+

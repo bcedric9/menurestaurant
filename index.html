@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurant</title>
+    <link rel="stylesheet" href="C:\Users\Onyx_\Desktop\Développeur Web\Algorithmique\HTML\MonMenuRestaurant\menurestaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>New York's Diner</h1>
+        <nav>
+            <ul>
+                <a href="#accueil">
+                    <li>Accueil</li>
+                </a>
+                <a href="#menu">
+                    <li>Menu</li>
+                </a>
+                <a href="#reservation">
+                    <li>Réservation</li>
+                </a>
+                <a href="#trouvez-nous">
+                    <li>Contact</li>
+                </a>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div id="accueil">
+            <img class="newyork"
+                src="https://static.vecteezy.com/ti/vecteur-libre/p1/2792713-neon-patriot-day-banner-with-world-trade-center-and-new-york-city-vectoriel.jpg"
+                alt="New York's Diner">
+        </div>
+        <div class="separateur"></div>
+        <h2>Menu</h2>
+        <div id="menu">
+            <div id="menus">
+                <div id="entrées">
+                    <h2>Entrées</h2>
+                    <div class="salade">
+                        <h4>Chief Salad</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/caesar-540x380.jpg"
+                            alt="salade">
+                        <p>salade romaine, poulet grillé, dés d'avocats, dés de fromage bleu, bacon émincé, tomates
+                            cerises, œufs durs et
+                            sauce
+                            caesar.</p>
+                        <p class="prix">8 &euro;</p>
+                    </div>
+                    <div class="onion">
+                        <h4>Onion Rings</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/08/onionrings-540x380.jpg"
+                            alt="onion">
+                        <p>10 rondelles d'oignons enrobées d'une pâte croustillante aromatisée à la bière.</p>
+                        <p class="prix">9 &euro;</p>
+                    </div>
+                    <div class="chicken">
+                        <h4>Chicken Pop</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/08/POP-CHICKEN-X9-540x380.jpg"
+                            alt="poulet pané">
+                        <p>10 morceaux de poulet panés et sa sauce pickles.</p>
+                        <p class="prix">10 &euro;</p>
+                    </div>
+                </div>
+                <div id="plats">
+                    <h2>Plats</h2>
+                    <div class="marilyn">
+                        <h4>Burger Marilyn</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/TOMMYS-BURGER-540x380.jpg"
+                            alt="burger boeuf">
+                        <p>Viande de boeuf dans un bun garni de 2 onion rings, d'une sauce burger, salade iceberg,
+                            tomate,
+                            cheddar et oignons frits.</p>
+                        <p class="prix">16 &euro;</p>
+                    </div>
+                    <div class="elvis">
+                        <h4>Burger Elvis</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2025/11/THE-NASHVILLE-CHICKEN-1-1-540x380.jpg"
+                            alt="burger poulet">
+                        <p>Filet de poulet pané, garni d'une sauce burger, salade iceberg, tomate, pickles, coleslaw
+                            maison.
+                        </p>
+                        <p class="prix">15 &euro;</p>
+                    </div>
+                    <div class="madonna">
+                        <h4>Burger Madonna</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/Green-540x380.jpg"
+                            alt="burger végétarien">
+                        <p>Bun boulanger garni d'une galette végétale composée d'haricots azukis, de quinoa et de
+                            légumes,
+                            sauce
+                            burger, salade iceberg, tomate fraiche, courgette marinée grillée, oignons rouges frais,
+                            cheddar.
+                        </p>
+                        <p class="prix">13 &euro;</p>
+                    </div>
+                </div>
+                <div id="desserts">
+                    <h2>Desserts</h2>
+                    <div class="donuts">
+                        <h4>Donuts</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/donuts-416x292.jpg"
+                            alt="donuts">
+                        <p>donuts au choix : nature, fraise ou chocolat.</p>
+                        <p class="prix">6 &euro;</p>
+                    </div>
+                    <div class="pancakes">
+                        <h4>Pancakes</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/PANCAKEOREO-540x380.jpg"
+                            alt="pancakes">
+                        <p>deux pancakes avec sauce chocolat ou sirop d'érable et chantilly.</p>
+                        <p class="prix">7 &euro;</p>
+                    </div>
+                    <div class="cookies">
+                        <h4>Cookies</h4>
+                        <img src="https://www.tommys-diner.com/wp-content/uploads/2024/09/cookieskillet-540x380.jpg"
+                            alt="cookie">
+                        <p>Maxi Cookie aux pépites de Chocolat servi avec une boule de glace ou chantilly et sauce
+                            caramel.
+                        </p>
+                        <p class="prix">8 &euro;</p>
+                    </div>
+                </div>
+                <div id="boissons">
+                    <h2>Boissons</h2>
+                    <div class="cocktails">
+                        <h4>Cocktails</h4>
+                        <ol>
+                            <li>Mojito (25cl) : 8 &euro;</li>
+                            <li>Cuba Libre (25cl) : 8 &euro;</li>
+                            <li>Piña Colada (25cl) : 8 &euro;</li>
+                        </ol>
+                    </div>
+                    <div class="alcool">
+                        <h4>Alcool</h4>
+                        <ol>
+                            <li>Bière Corona (33cl) : 6 &euro;</li>
+                            <li>Rhum Bacardi (6cl) : 7 &euro;</li>
+                            <li>Whisky Chivas (6cl) : 7 &euro; </li>
+                        </ol>
+                    </div>
+                    <div class="soft">
+                        <h4>Soft</h4>
+                        <ol>
+                            <li>Coca Cola (33cl) : 5 &euro;</li>
+                            <li>Dr Pepper (33cl) : 5 &euro;</li>
+                            <li>Limonade (33cl) : 5 &euro;</li>
+                        </ol>
+                    </div>
+                    <img class="drpepper"
+                        src="https://thumbs.dreamstime.com/b/boisson-molle-de-kola-dr-pepper-118276067.jpg"
+                        alt="dr pepper">
+
+                </div>
+            </div>
+        </div>
+        <div class="separateur"></div>
+        <div id="reservation">
+            <h2>Réservez votre table</h2>
+
+            <form action="#">
+                <div class="row">
+                    <div class="group-input">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="group-input">
+                        <label for="email">E-mail :</label>
+                        <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="group-input">
+                        <label for="sujet">Sujet :</label>
+                        <input type="text" id="sujet" name="sujet" placeholder="Sujet">
+                    </div>
+
+                    <div class="group-input">
+                        <label for="telephone">Téléphone :</label>
+                        <input type="texte" id="telephone" name="telephone" placeholder="Votre téléphone">
+                    </div>
+                </div>
+
+                <div class="group-input">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <div class="separateur"></div>
+    </main>
+
+    <footer>
+        <div id="trouvez-nous">
+            <h2>Trouvez-nous</h2>
+            <h6>Voici comment nous retrouver.</h6>
+
+            <div id="trouvez-div">
+                <div id="trouvez-left">
+                    <iframe src="https://www.google.com/maps?q=156+Rue+L%C3%A9on+Jouhaux,+59290+Wasquehal&output=embed"
+                        style="border:0;" height="100%" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div id="trouvez-right">
+                    <div class="trouvez-row">
+                        <i class="fa-solid fa-location-dot fa-xl" style="color: pink;"></i>
+                        <div class="trouvez-info">
+                            <h6>Adresse</h6>
+                            <p>29 rue des étoiles 59000 Lille, France</p>
+                        </div>
+                    </div>
+                    <div class="trouvez-row">
+                        <i class="fa-solid fa-phone fa-xl" style="color: pink;"></i>
+                        <div class="trouvez-info">
+                            <h6>Téléphone</h6>
+                            <p><a href="tel:0152653562"> 03 28 65 35 62</a></p>
+                        </div>
+                    </div>
+                    <div class="trouvez-row">
+                        <i class="fa-solid fa-envelope fa-xl" style="color: pink;"></i>
+                        <div class="trouvez-info">
+                            <h6>E-mail</h6>
+                            <p><a href="mailto:contact@newyorksdiner.fr">contact@newyorksdiner.fr</a></p>
+                        </div>
+                    </div>
+                    <div class="trouvez-row">
+                        <i class="fa-solid fa-clock fa-xl" style="color: pink;"></i>
+                        <div class="trouvez-info">
+                            <h6>Horaires</h6>
+                            <p>Lundi - Vendredi : 12h00 - 22hh00</p>
+                            <p>Samedi : 12h00 - 23h00</p>
+                            <p>Dimanche : Fermé</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
